@@ -7,11 +7,11 @@ def display_board(board)
   separator = "|"
   lines = "-----------"
 
-puts "#{cell}#{separator}#{cell}#{separator}#{cell}"
+puts "#{board[1]}#{separator}#{board[2]}#{separator}#{board[3]}"
 puts "#{ lines }"
-puts "#{cell}#{separator}#{cell}#{separator}#{cell}"
+puts "#{board[4]}#{separator}#{board[5]}#{separator}#{board[6]}"
 puts "#{ lines }"
-puts "#{cell}#{separator}#{cell}#{separator}#{cell}"
+puts "#{board[7]}#{separator}#{board[8]}#{separator}#{board[9]}"
 
 end
 
